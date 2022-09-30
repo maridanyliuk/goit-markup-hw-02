@@ -85,6 +85,7 @@ font-weight: 900;
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--white);
+    cursor: pointer;
 
 }
 .benefit-item-title {
@@ -182,6 +183,7 @@ font-weight: 900;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-color);
+    cursor: pointer;
 }
 .filter-btn:hover,
 .filter-btn:focus{
