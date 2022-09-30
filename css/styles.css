@@ -80,7 +80,7 @@ font-weight: 900;
     background-color: var(--brand-color);
     font-weight: 700;
     font-size: 16px;
-    line-height: 1,875;
+    line-height: 1.875;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
@@ -102,14 +102,14 @@ font-weight: 900;
 
 .benefit-item-descr {
         font-size: 14px;
-        line-height: 1,71;
+        line-height: 1.71;
         letter-spacing: 0.03em;
 }
 
 .occupation-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,67;
+    line-height: 1.67;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-color);
@@ -179,7 +179,7 @@ font-weight: 900;
     border-radius: 4px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,63;
+    line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-color);
