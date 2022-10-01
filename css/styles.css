@@ -4,12 +4,20 @@
     --background-color: #2F303A;
     --title-color: #212121;
     --white: #fff;
+    --team-background: #F5F4FA;
+    --grey: #EEEEEE;
+    --black: #000000;
+    --semi-grey: #ECECEC;
+    --main-button-hover: #188CE8;
 }
 
 
 body {
     font-family: Roboto, sans-serif;
     color: var(--text-color) ;
+    background-color: var(--white);
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 
 .link {
@@ -27,16 +35,15 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .web {
     color: var(--brand-color);
     font-family: 'Raleway';
 }
+
 .menu-link{
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--title-color);
@@ -47,10 +54,13 @@ body {
     color: var(--brand-color);
 }
 
+.current{
+    color: var(--brand-color);
+}
+
 .contact-email,
 .contact-phone {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14px;
     letter-spacing: 0.02em;
     color: var(--text-color);
@@ -79,6 +89,7 @@ font-weight: 900;
 .main-poster-btn{
     background-color: var(--brand-color);
     font-weight: 700;
+    font-family: inherit;
     font-size: 16px;
     line-height: 1.875;
     align-items: center;
@@ -88,22 +99,34 @@ font-weight: 900;
     cursor: pointer;
 
 }
+
+.main-poster-btn:hover,
+.main-poster-btn:focus{
+    background-color: var(--main-button-hover);
+}
+
 .benefit-item-title {
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-color);
 }
-.benefits-title{
-    visibility: hidden;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .benefit-item-descr {
-        font-size: 14px;
         line-height: 1.71;
-        letter-spacing: 0.03em;
 }
 
 .occupation-title{
@@ -111,11 +134,17 @@ font-weight: 900;
     font-size: 36px;
     line-height: 1.67;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--title-color);
 }
 .team{
-    background-color: #F5F4FA;
+    background-color: var(--team-background);
+}
+.team-header{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--title-color);
 }
 .team-member{
     background: var(--white);        
@@ -127,7 +156,6 @@ font-weight: 900;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--title-color);
 }
 
@@ -135,7 +163,6 @@ font-weight: 900;
     font-size: 16px;
         line-height: 1.19;
         text-align: center;
-        letter-spacing: 0.03em;
 }
 
 .footer{
@@ -147,9 +174,7 @@ font-weight: 900;
 .contact-phone-footer,
 .contact-email-footer {
     font-style: normal;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -161,7 +186,6 @@ font-weight: 900;
 }
 .location {
     font-style: normal;
-    font-size: 14px;
     line-height: 1.71;
     color: var(--white);
 }
@@ -178,10 +202,10 @@ font-weight: 900;
     background: #F5F4FA;
     border-radius: 4px;
     font-weight: 500;
+    font-family: inherit;
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--title-color);
     cursor: pointer;
 }
@@ -199,7 +223,6 @@ font-weight: 900;
 }
 .project-item-desct {
     font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
+    line-height: 1.86;
     color: #757575;
 }
